@@ -141,7 +141,12 @@ INSTALLED_APPS = (
     'mysite'
 )
 
-INSTALLED_APPS += ('polls', 'djangocms_polls')
+INSTALLED_APPS += (
+    'polls',
+    'djangocms_polls',
+    'form_designer',
+    'form_designer.contrib.cms_plugins.form_designer_form',
+)
 
 LANGUAGES = (
     ## Customize this
