@@ -141,6 +141,8 @@ INSTALLED_APPS = (
     'mysite'
 )
 
+INSTALLED_APPS += ('polls', 'djangocms_polls')
+
 LANGUAGES = (
     ## Customize this
     ('en', gettext('en')),
