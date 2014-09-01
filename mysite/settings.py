@@ -143,7 +143,6 @@ INSTALLED_APPS = (
 
 INSTALLED_APPS += (
     'polls',
-    'djangocms_polls',
     'form_designer',
     'form_designer.contrib.cms_plugins.form_designer_form',
 )
